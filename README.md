@@ -1,49 +1,36 @@
 Super Store Sales Dashboard
+Overview:
 
-Overview
-The Super Store Sales Dashboard is a comprehensive analytical tool designed to visualize and track key sales metrics across various segments, payment modes, regions, shipping modes, and categories. This project enables users to monitor performance, predict future sales, and gain insights into the factors driving the store's success.
+This repository contains two dashboards that provide comprehensive analysis of Superstore sales performance:
 
-Features
-Sales Overview: Provides a summary of total sales, quantity sold, profit, and expected delivery metrics.
-Sales by Segment: Visualizes sales distribution across different customer segments, including Home Office, Consumer, and Corporate.
-Sales by Payment Mode: Displays the breakdown of sales via various payment methods, including Cards, COD, and Online.
-Sales by Region: Illustrates the regional sales distribution across Central, East, South, and West regions.
-Monthly Sales & Profit Trends: Tracks sales and profit trends over the course of two years (2019-2020).
-Sales by Shipping Mode: Analyzes sales based on the selected shipping mode, including Standard, Second Class, First Class, and Same Day.
-Sales by Category & Sub-Category: Breaks down sales figures for specific product categories and sub-categories, such as Office Supplies, Technology, and Furniture.
-Geographical Insights: Provides insights into profit and sales distribution by state using an interactive map.
-15-Day Sales Forecast: Forecasts sales trends for the next 15 days based on historical data.
+Super Store Sales Dashboard
 
-Tech Stack
-Data Visualization: Power BI / Tableau / Excel (adjust based on the tool used)
-Data Sources: Historical sales data from a Super Store
-Programming Languages: Python/R (if used for data manipulation or forecasting)
-Mapping: Bing Maps for geographical visualizations
-Installation
-To view the dashboard locally or modify the visualizations:
+Offers insights into overall sales, quantity, profit, and expected delivery time.
+Analyzes sales by segment, ship mode, payment mode, region, category, and sub-category.
+Super Store Sales Forecast - 15 Days Forecast
 
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/super-store-sales-dashboard.git
-Navigate to the project directory:
-bash
-Copy code
-cd super-store-sales-dashboard
-Install dependencies (if applicable):
-bash
-Copy code
-pip install -r requirements.txt
-Open the dashboard in your preferred tool (Power BI, Tableau, etc.).
-Usage
-Interactive Filters: Users can apply filters to focus on specific regions, segments, or time frames.
-Drill-Down Capabilities: Drill down into the data to explore underlying factors contributing to sales performance.
-Export Options: Export visualizations or the entire dashboard for presentations or reports.
-Contributing
-We welcome contributions! Please follow the steps below to contribute to this project:
+Provides a 15-day sales projection based on historical data.
+Shows profit and sales performance by state.
+Key Metrics:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Commit your changes (git commit -am 'Add new feature').
-Push the branch (git push origin feature-branch).
-Create a new Pull Request.
+Sales and Profit: Overall sales, quantity, profit, and expected delivery time.
+Sales by Segment: Breakdown of sales by customer segments (Home Office, Consumer, Corporate).
+Sales by Ship Mode: Analysis of sales performance across different shipping modes (Standard, Second Class, First Class, Same Day).
+Sales by Payment Mode: Examination of sales patterns based on payment methods (Cards, COD, Online).
+Sales by Region: Comparison of sales across different regions (Central, East, South, West).
+Sales by Category and Sub-Category: Identification of top-selling product categories and sub-categories.
+Sales Forecast: 15-day sales projection.
+Usage:
+
+Open the dashboard files.
+Explore different visualizations:
+Refer to the specific README files for details on the visualizations in each dashboard.
+Customization:
+
+Modify data: Update the underlying data source to reflect changes in sales data.
+Customize visualizations: Adjust colors, labels, and formatting to match your preferences.
+Add new metrics: Incorporate additional calculations or visualizations as needed.
+Note:
+
+Ensure you have the necessary software (e.g., Excel, Power BI) and data connections set up for proper functionality.
+For specific questions or troubleshooting, refer to the comments within the dashboard files or consult the documentation for the software used.
