@@ -11,6 +11,7 @@ Super Store Sales Forecast - 15 Days Forecast
 
 Provides a 15-day sales projection based on historical data.
 Shows profit and sales performance by state.
+
 Key Metrics:
 
 Sales and Profit: Overall sales, quantity, profit, and expected delivery time.
